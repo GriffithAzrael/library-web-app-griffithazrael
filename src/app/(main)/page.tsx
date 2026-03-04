@@ -74,7 +74,7 @@ export default async function Home() {
                 : '/category';
 
               return (
-                <Link key={cat.title} href={href} className='block'>
+                <Link key={cat.title} href={href} className='block w-full'>
                   <CategoryCard {...cat} />
                 </Link>
               );
